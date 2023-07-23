@@ -4,8 +4,8 @@ function Header() {
     const [toggle,setToggle]=useState(false);
   return (
     <>
-    <div className='bg-[#2699fb] p-4'>
-    <div className='max-w-[1240px] py-[15px] items-center 
+    <div className='bg-[#2699fb] p-3'>
+    <div className='max-w-[1240px] py-[10px] items-center 
     flex justify-between mx-auto'>
       <div className='text-2xl font-bold'>AKG TECH.</div>
       {
@@ -33,7 +33,7 @@ function Header() {
           </li>
       </ul>
       {/* responsive menu */}
-      <ul className={`md:hidden text-white h-screen bg-black w-full fixed  top-[92px]
+      <ul className={`duration-300 md:hidden text-white h-screen bg-black w-full fixed  top-[92px]
       ${toggle ? 'left-[0]': 'left-[-100%]'}`}>
         <li className='p-3'>
           Home
