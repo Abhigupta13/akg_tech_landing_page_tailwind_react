@@ -33,7 +33,7 @@ function Header() {
           </li>
       </ul>
       {/* responsive menu */}
-      <ul className={`duration-300 md:hidden text-white h-screen bg-black w-full fixed  top-[92px]
+      <ul className={`duration-300 md:hidden text-white h-screen bg-black w-full fixed  top-[70px]
       ${toggle ? 'left-[0]': 'left-[-100%]'}`}>
         <li className='p-3'>
           Home

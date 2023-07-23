@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 function Banner() {
   return (
     <div className='bg-[#2699fb] w-full py-[50px]'>
-        <div className='max-w-[1240px] mx-auto mt-[80px] mb-[160px]
+        <div className='max-w-[1240px] mx-auto mt-[80px] mb-[150px]
          text-center font-bold'>
             <div className='text-xl md:text-3xl md:p-[20px]'>
                 Learn with us
@@ -20,7 +20,10 @@ function Banner() {
               backSpeed={60}
               loop={true}
               />
+
             </div>
+            <button className='p-3 sm:m-4 bg-black rounded text-white'>Get started</button>
+
         </div>
 
     </div>
